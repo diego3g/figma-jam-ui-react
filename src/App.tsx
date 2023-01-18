@@ -1,6 +1,12 @@
+import './styles/global.css'
+
+import { Canvas } from "./components/Canvas";
+
 export function App() {
   return (
-    <h1>Hello World</h1>
+    <div style={{ height: '100vh', width: '100vw' }}>
+      <Canvas />
+    </div>
   )
 }
 
